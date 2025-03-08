@@ -23,7 +23,7 @@
 }
 
 .circular--square {
-    border-radius: 20%;
+    border-radius: 60%;
 }
 
 /*This code is from Google Fonts*/
@@ -39,18 +39,18 @@
 .playwrite-be-vlg-p {
     font-family: "Playwrite BE VLG", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 700;
     font-style: italic;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
 header {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: transparent;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+    align-items: left;
 }
 
 main {
@@ -60,20 +60,33 @@ main {
 }
 
 .centered {
-    color: white;
+    color: black;
     background-color: transparent;
     font-family: "Playwrite BE VLG", serif;
     font-optical-sizing: auto;
     font-size: 17px;
     font-style: italic;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
 .intro {
     /*max-width: 500px;*/
     text-align: left;
+}
+
+.body {
+    max-width: 500px;
+    text-align: left;
+    font-family: "Playwrite BE VLG", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .right {
@@ -92,18 +105,19 @@ main {
 }*/
 
 body {
-    background-image: url(back-img.jpg);
+    background-image: url(brown-cream-blue-background.jpg);
+    background-size: 1400px;
     /*background-color: tan;*/
 }
 
 a:link {
-    color: white;
+    color: black;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: white;
+    color: black;
     background-color: transparent;
     text-decoration: none;
 }
@@ -123,4 +137,17 @@ a:active {
 footer {
     color: black;
     background-color: turquoise;
+}
+
+.centered-footer {
+    color: black;
+    background-color: transparent;
+    font-family: "Playwrite BE VLG", serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: italic;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
