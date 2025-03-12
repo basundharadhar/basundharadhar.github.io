@@ -30,18 +30,18 @@
 .playwrite-be-vlg-name {
     font-family: "Playwrite BE VLG", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 1000;
     font-style: italic;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 /*This code is from Google Fonts*/
 .playwrite-be-vlg-p {
     font-family: "Playwrite BE VLG", serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 600;
     font-style: italic;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -68,7 +68,7 @@ main {
     font-style: italic;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .intro {
@@ -78,15 +78,14 @@ main {
 
 .body {
     max-width: 500px;
-    text-align: left;
     font-family: "Playwrite BE VLG", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: italic;
-    font-size: 23px;
+    font-size: 20px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    /* justify-content: space-around; */
+    /*align-items: center;*/
 }
 
 .right {
