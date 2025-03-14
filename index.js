@@ -9,7 +9,7 @@ date.style.textAlign = "center";
 // To display the date in 2 different colors every second  
 function flash() {
     var text = document.getElementById('date');
-    text.style.color = (text.style.color == 'red') ? 'green' : 'red';
+    text.style.color = (text.style.color == 'red') ? 'blue' : 'red';
     text.style.fontWeight = (text.style.fontWeight == '1000') ? '' : '1000';
 }
 var clr = setInterval(flash, 1000);
